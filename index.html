@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Page de profil avec formulaire de contact - Enzo Alfarela." />
+    <title>Enzo - Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/profile.jpg" alt="Photo de profil" class="profile-img" />
+      <h1>Enzo Alfarela</h1>
+      <p>Étudiant en 2e année à ICN Business School</p>
+      <p>Passionné par la finance, l'investissement et les projets immobiliers.</p>
+
+      <ul class="list-inline">
+        <li><a href="https://www.linkedin.com" class="btn-blue" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com" class="btn-blue" target="_blank">GitHub</a></li>
+      </ul>
+
+      <h2>Contacte-moi</h2>
+      <form action="https://formspree.io/f/mwkdkwrd" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Ton prénom" required>
+        <input type="email" name="email" placeholder="Ton email" required>
+        <textarea name="message" placeholder="Ton message..." rows="4" required></textarea>
+        <button type="submit" class="btn-blue">Envoyer</button>
+      </form>
+    </div>
+  </body>
+</html>
